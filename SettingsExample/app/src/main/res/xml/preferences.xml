@@ -8,24 +8,19 @@
         <Preference
             android:key="preference"
             android:title="@string/title_basic_preference"
-            android:summary="@string/summary_basic_preference"
-            />
-
+            android:summary="@string/summary_basic_preference"/>
 
         <Preference
             android:key="icon"
             android:title="@string/title_icon_preference"
             android:summary="@string/summary_icon_preference"
-            android:icon="@android:drawable/ic_menu_camera"
-            />
+            android:icon="@android:drawable/ic_menu_camera"/>
 
         <Preference
             android:key="single_line_title"
             android:title="@string/title_single_line_title_preference"
-            android:summary="@string/summary_icon_preference"
-            app:singleLineTitle="true"
-            />
-
+            android:summary="@string/summary_single_line_title_preference"
+            app:singleLineTitle="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -34,14 +29,12 @@
         <CheckBoxPreference
             android:key="checkbox"
             android:title="@string/title_checkbox_preference"
-            android:summary="@string/summary_checkbox_preference"
-            />
+            android:summary="@string/summary_checkbox_preference"/>
 
         <SwitchPreferenceCompat
             android:key="switch"
             android:title="@string/title_switch_preference"
-            android:summary="@string/summary_switch_preference"
-            />
+            android:summary="@string/summary_switch_preference"/>
 
         <DropDownPreference
             android:key="dropdown"
@@ -55,7 +48,6 @@
             android:title="@string/title_seekbar_preference"
             android:max="10"
             android:defaultValue="5"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -65,8 +57,7 @@
             android:key="edittext"
             android:title="@string/title_edittext_preference"
             app:useSimpleSummaryProvider="true"
-            android:dialogTitle="@string/dialog_title_edittext_preference"
-            />
+            android:dialogTitle="@string/dialog_title_edittext_preference"/>
 
         <ListPreference
             android:key="list"
@@ -83,7 +74,6 @@
             android:entries="@array/islands"
             android:entryValues="@array/islands"
             android:dialogTitle="@string/dialog_title_multi_list_preference"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -128,7 +118,6 @@
             android:summary="@string/summary_copyable_preference"
             android:selectable="false"
             app:enableCopying="true"/>
-
     </PreferenceCategory>
 
 </PreferenceScreen>
